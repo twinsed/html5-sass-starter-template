@@ -1,0 +1,17 @@
+.btn {
+    &,
+    &:link,
+    &:visited {}
+    
+    &:hover {
+        &::after {}
+    }
+    
+    &:active,
+    &:focus {}
+    
+    &--white {
+
+        &::after {}
+    }
+}

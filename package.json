@@ -1,0 +1,16 @@
+{
+  "name": "html-sass-starter-template",
+  "version": "0.0.1",
+  "description": "an html starter template",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Enrico Freni",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  }
+}
